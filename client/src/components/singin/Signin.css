@@ -1,0 +1,66 @@
+.signin-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #a2cc8a;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-label {
+    font-size: 1.2rem;
+    color: #343a40;
+  }
+  
+  .label-text {
+    font-size: 1rem;
+    color: #616970;
+  }
+  
+  .form-control {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+  
+  .btn {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .signin-container {
+      margin: 20px auto;
+      padding: 15px;
+    }
+  
+    .form-label, .label-text {
+      font-size: 1rem;
+    }
+  
+    .form-control {
+      font-size: 0.9rem;
+    }
+  
+    .btn {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .signin-container {
+      padding: 10px;
+    }
+  
+    .form-label, .label-text {
+      font-size: 0.9rem;
+    }
+  
+    .form-control {
+      font-size: 0.8rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+    }
+  }
+  

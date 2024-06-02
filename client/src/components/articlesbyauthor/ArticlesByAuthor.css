@@ -1,0 +1,87 @@
+/* ArticlesByAuthor.css */
+
+.articles-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #555;
+}
+
+.card-footer {
+  margin-top: 10px;
+}
+
+.custom-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+.text-body-secondary {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .custom-btn {
+    padding: 6px 12px;
+  }
+
+  .text-body-secondary {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 0.9rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .custom-btn {
+    padding: 4px 10px;
+  }
+
+  .text-body-secondary {
+    font-size: 0.7rem;
+  }
+}

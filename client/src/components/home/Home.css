@@ -1,0 +1,33 @@
+img{
+  height: 200px;
+  float: left;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+.textt{
+  color: #9d794e;
+  text-align: center;
+  padding: 30px;
+}
+  
+  @media (max-width: 768px) {
+    .home-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .home-text {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .home-container {
+      padding: 10px;
+    }
+  
+    .home-text {
+      font-size: 0.9rem;
+    }
+  }
+  

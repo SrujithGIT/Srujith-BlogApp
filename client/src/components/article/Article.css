@@ -1,0 +1,57 @@
+/* Article.css */
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .article-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  .article-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .article-header-buttons {
+    display: flex;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .comment-form {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  .comment-input {
+    width: calc(100% - 100px);
+    margin-right: 10px;
+  }
+  
+  .comment-btn {
+    width: 100px;
+  }
+  
+  .article-card {
+    background-color: #f8f9fa; /* Light background color for card */
+    color: #333; /* Text color */
+    padding: 20px; /* Padding */
+    text-align: center; /* Center align text */
+  }
+  
+  .article-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .publish-btn {
+    margin-top: 20px; /* Add margin to the Publish button */
+  }

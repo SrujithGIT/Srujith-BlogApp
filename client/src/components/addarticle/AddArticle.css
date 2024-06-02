@@ -1,0 +1,19 @@
+/* AddArticle.css */
+
+.article-card {
+    background-color: #f8f9fa; /* Light background color for card */
+    color: #333; /* Text color */
+    padding: 20px; /* Padding */
+    text-align: center; /* Center align text */
+  }
+  
+  .article-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .publish-btn {
+    margin-top: 20px; /* Add margin to the Publish button */
+  }
+  
